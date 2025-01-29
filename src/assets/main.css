@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    font-family : 'Gothic A1';
+    color : #ECECEC !important;
+
+}
+
+h1{
+    /* bold */
+    font-weight: 700;
+}
+
+h2{
+    /* semi-bold */
+    font-weight: 600; 
+}
+
+h3{
+    /* medium */
+    font-weight: 500;
+}
+
+h4{
+    /* regular */
+    font-weight: 400;
+}
+
+h5, h6{
+    /* light */
+    font-weight: 300;
+}
+
+p {
+    /* extra-light */
+    font-weight: 200;
+}

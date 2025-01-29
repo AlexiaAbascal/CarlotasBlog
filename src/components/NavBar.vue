@@ -32,7 +32,7 @@
 <!-- #3b3033 -->
 <style>
     .navbar{
-        background-color: #3b3033;
+        background-color: #232222;
     }
     
     .navbar-brand, .navlink{
