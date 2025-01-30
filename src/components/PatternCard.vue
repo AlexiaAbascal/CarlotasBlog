@@ -1,20 +1,22 @@
 <template>
     <div class="container">
-        <div class="row d-flex justify-content-center">
-            <div class="col-md-8 card">
-                <div class="row g-0">
-                    <div class="col-md-2 img-container d-flex">
-                        <div class="image-overlay">
-                            <img src="/src/assets/cable_beanie.jpg" class="img-fluid rounded-start" alt="cable beanie">
+        <div class="display-content">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-8 card">
+                    <div class="row g-0">
+                        <div class="col-md-2 img-container d-flex">
+                            <div class="image-overlay">
+                                <img src="/src/assets/cable_beanie.jpg" class="img-fluid rounded-start" alt="cable beanie">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-10">
-                        <div class="card-body">
-                            <h4 class="card-title">Cable Beanie</h4>
-                            <h6 class="card-text">This cable beanie knitting pattern features intricate, 
-                                textured cable stitches that create a cozy and stylish design. The pattern guides you through knitting the hat in the round, 
-                                using a combination of twisted stitches to form beautiful braided cables</h6>
-                            <p class="card-text"><small class="text-body-secondary">Level : Advanced beginner</small></p>
+                        <div class="col-md-10">
+                            <div class="card-body">
+                                <h4 class="card-title">Cable Beanie</h4>
+                                <h6 class="card-text">This cable beanie knitting pattern features intricate, 
+                                    textured cable stitches that create a cozy and stylish design. The pattern guides you through knitting the hat in the round, 
+                                    using a combination of twisted stitches to form beautiful braided cables</h6>
+                                <p class="card-text"><small class="text-body-secondary">Level : Advanced beginner</small></p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -24,6 +26,11 @@
 </template>
 
 <style scoped>
+
+.display-content{
+    margin-left: 6px;
+    margin-right:6px;
+}
 
 .card-title{
     font-size: 24px;

@@ -4,4 +4,6 @@ import RecipeCard from '../components/RecipeCard.vue';
 
 <template>
     <RecipeCard/>
+    <RecipeCard/>
+
 </template>
