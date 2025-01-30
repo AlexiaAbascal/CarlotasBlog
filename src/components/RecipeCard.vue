@@ -84,8 +84,8 @@
 }
 
 .container {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .img-container {

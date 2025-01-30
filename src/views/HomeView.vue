@@ -1,8 +1,9 @@
 <script setup>
+import RecipeContent from '@/components/RecipeContent.vue';
 </script>
 
 <template>
-    <h5>I am homeview</h5>
+    <RecipeContent/>
 </template>
 
 <style scoped>

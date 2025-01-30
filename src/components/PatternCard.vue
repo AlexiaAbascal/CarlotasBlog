@@ -2,7 +2,7 @@
     <div class="container">
         <div class="display-content">
             <div class="row d-flex justify-content-center">
-                <div class="col-md-8 card">
+                <div class="col-md-9 card">
                     <div class="row g-0">
                         <div class="col-md-2 img-container d-flex">
                             <div class="image-overlay">
@@ -59,8 +59,8 @@
 }
 
 .container{
-    margin-top : 3rem;
-    margin-bottom: 3rem;
+    margin-top : 2rem;
+    margin-bottom: 2rem;
 }
 
 .img-container {
