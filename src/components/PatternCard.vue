@@ -10,10 +10,11 @@
                     </div>
                     <div class="col-md-10">
                         <div class="card-body">
-                            <h3 class="card-title">Cable Beanie</h3>
-                            <h6 class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</h6>
-                            <p class="card-text"><small class="text-body-secondary">Level : Intermediate</small></p>
+                            <h4 class="card-title">Cable Beanie</h4>
+                            <h6 class="card-text">This cable beanie knitting pattern features intricate, 
+                                textured cable stitches that create a cozy and stylish design. The pattern guides you through knitting the hat in the round, 
+                                using a combination of twisted stitches to form beautiful braided cables</h6>
+                            <p class="card-text"><small class="text-body-secondary">Level : Advanced beginner</small></p>
                         </div>
                     </div>
                 </div>
@@ -24,9 +25,19 @@
 
 <style scoped>
 
+.card-title{
+    font-size: 24px;
+}
+
+.card-text{
+    font-size: 14px;
+    text-align: justify;
+}
+
 .card-body {
-    padding: 4px;
+    padding: 6px;
     margin-left: 6px; 
+    margin-top: 8px;
 }
 
 .card{
@@ -37,6 +48,7 @@
 
 .text-body-secondary{
     color: #ECECEC !important;
+
 }
 
 .container{

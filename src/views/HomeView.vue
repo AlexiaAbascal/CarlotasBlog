@@ -1,3 +1,6 @@
+<script setup>
+</script>
+
 <template>
     <h5>I am homeview</h5>
 </template>

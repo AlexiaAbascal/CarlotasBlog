@@ -1,9 +1,7 @@
-.<template>
-    <h5>I am recipes view</h5>
-</template>
+<script setup>
+import RecipeCard from '../components/RecipeCard.vue';
+</script>
 
-<style scoped>
-    h5{
-        color : black !important;
-    }
-</style>
+<template>
+    <RecipeCard/>
+</template>
