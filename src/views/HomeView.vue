@@ -1,9 +1,8 @@
 <script setup>
-import RecipeContent from '@/components/RecipeContent.vue';
 </script>
 
 <template>
-    <RecipeContent/>
+    
 </template>
 
 <style scoped>

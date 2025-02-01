@@ -1,42 +1,60 @@
 <template>
     <div class="container">
         <div class="display-content">
-        <div class="row d-flex justify-content-center">
-            <div class="col-md-10 card">
+            <div class="row d-flex justify-content-center row-container">
+                <div v-for="recipe in recipes" :key="recipe.id" class="col-md-10 card">
 
-                <div class="img-container">
-                    <div class="image-overlay">
-                        <img src="/src/assets/comida_1.jpg" class="img-fluid  top-border-radius">
+                    <div class="img-container">
+                        <div class="image-overlay">
+                            <img :src="`/src/assets/${recipe.image}`" class="img-fluid  top-border-radius">
+                        </div>
                     </div>
-                </div>
 
-                <div class="card-body">
-                    <div class="d-flex flex-wrap"> 
-                    <h4 class="card-title">Chocolate Bread</h4>
-                    <div class="rating">
-                                <img src="/src/assets/icons/full_heart.png" class="hearts_icon img-fluid me-1">
-                                <img src="/src/assets/icons/full_heart.png" class="hearts_icon img-fluid me-1">
-                                <img src="/src/assets/icons/full_heart.png" class="hearts_icon img-fluid me-1">
-                                <img src="/src/assets/icons/empty_heart.png" class="hearts_icon img-fluid me-1">
-                                <img src="/src/assets/icons/empty_heart.png" class="hearts_icon img-fluid me-3">
+                    <div class="card-body">
+                        <div class="card-container d-flex flex-wrap"> 
+                            <router-link :to="`/recipes/${recipe.id}`" class="card-title">
+                                <h4 class="title-text">{{ recipe.title }}</h4>
+                            </router-link>
+                            
+                            <div v-for="index in 5" :key="index" class="rating">
+                                <img :src="index <= recipe.rating ? '/src/assets/icons/full_heart.png' : '/src/assets/icons/empty_heart.png'" 
+                                    class="hearts_icon img-fluid ">
                             </div>
                         </div>
-                    <div class="d-flex justify-content-between flex-wrap"> 
-                        <div class="description">
-                            <p class="card-text">A delicious, soft, and slightly sweet treat made with rich cocoa</p>
+                        
+                        <div class="d-flex justify-content-between flex-wrap"> 
+                            <div class="description">
+                                <p class="card-text">{{recipe.description}}</p>
+                            </div>
                         </div>
                     </div>
+
+
+
                 </div>
-
-
-
             </div>
         </div>
     </div>
-    </div>
 </template>
 
+<script>
+import data from "../database/data_recipes.json";
+export default {
+    data() {
+        return {
+            recipes: data  
+        };
+    }
+}
+</script>
+
+
 <style scoped>
+
+.title-text{
+    margin:0px;
+}
+
 
 .display-content{
     margin-left: 6px;
@@ -52,11 +70,15 @@
     height:15px;
     width:15px;
     padding:0px;
+    margin-top:4px;
+
 }
 
 .card-title {
     font-size: 24px;
-    margin-bottom:0rem;
+    text-decoration: none;
+    margin-top:4px;
+    margin-bottom:0px;
 }
 
 .card-text {
@@ -65,6 +87,7 @@
     padding:0px;
     margin-top:0px;
     margin-right: 8px;
+    margin-bottom: 0px;
 }
 
 .card-body {
@@ -75,7 +98,7 @@
 
 .card {
     padding: 0px;
-    margin: 0px;
+    margin-bottom:1rem;
     background-color:#746E6E;
 }
 

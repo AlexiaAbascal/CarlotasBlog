@@ -1,0 +1,40 @@
+[
+  {
+    "id": "chocolate-bread",
+    "title": "Chocolate Bread",
+    "image": "comida_1.jpg",
+    "prepTime": "45 min",
+    "rating": 3,
+    "description": "A delicious, soft, and slightly sweet treat made with rich cocoa",
+    "ingredients": [
+      "150 grams of flour",
+      "50 grams of sugar",
+      "20 grams of cocoa powder",
+      "10 grams of chocolate chips"
+    ],
+    "instructions": [
+      "Step 1. In a large mixing bowl, add flour, cocoa powder, baking powder, baking soda, salt and sugars. Stir briefly.",
+      "Step 2. In a medium bowl, add melted butter, eggs and vanilla. Stir with a fork to break up the egg yolks.",
+      "Step 3. Add wet ingredients to dry ingredients, along with the buttermilk.",
+      "Step 4. : Gently stir until combined. Stir through chocolate chips."
+    ]
+  },
+  {
+    "id": "Lasagna",
+    "title": "Lasagna",
+    "image": "comida_1.jpg",
+    "prepTime": "1 hour 30 min",
+    "rating": 5,
+    "description": "A rich, hearty and cheesy italian dish",
+    "ingredients": [
+      "200 grams of ground beef",
+      "1 can of crushed tomatoes",
+      "1 box of lasagna pasta",
+      "10 grams parmesean cheese"
+    ],
+    "instructions": [
+      "Step 1. Boil pasta in a large pot of salted water boil lasagna noodles per the recipe below. ",
+      "Step 2. Prepare meat sauce add the beef with onion and garlic. Drain well, add the pasta sauce"
+    ]
+  }
+]
