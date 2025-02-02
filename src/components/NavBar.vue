@@ -13,18 +13,18 @@
                     
                    
                     <RouterLink to="/patterns" class="navlink me-4 mt-1">
-                        <img alt="patterns" class="patterns me-1" src="/assets/icons/pattern_icon.png" width="30" height="30" /> 
+                        <img alt="patterns" class="patterns me-1" src="/icons/pattern_icon.png" width="30" height="30" /> 
                         Patterns
                     </RouterLink>
 
                     <RouterLink to="/recipes" class="navlink me-4 mt-1">
-                        <img alt="recipes" class="recipes me-1" src="/assets/icons/recipe_icon.png" width="25" height="25" /> 
+                        <img alt="recipes" class="recipes me-1" src="/icons/recipe_icon.png" width="25" height="25" /> 
                         Recipes
                     </RouterLink>
 
 
                     <RouterLink to="/" class="navlink me-4 mt-1">
-                        <img alt="home" class="home me-1" src="/assets/icons/home_icon.png" width="25" height="25" /> 
+                        <img alt="home" class="home me-1" src="/icons/home_icon.png" width="25" height="25" /> 
                         Home
                     </RouterLink>
 

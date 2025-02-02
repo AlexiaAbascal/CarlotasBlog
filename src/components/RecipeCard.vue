@@ -6,7 +6,7 @@
 
                     <div class="img-container">
                         <div class="image-overlay">
-                            <img :src="'/assets/images/' + recipe.image" class="img-fluid  top-border-radius">
+                            <img :src="'/images/' + recipe.image" class="img-fluid  top-border-radius">
                         </div>
                     </div>
 
@@ -17,7 +17,7 @@
                             </router-link>
                             
                             <div v-for="index in 5" :key="index" class="rating">
-                                <img :src="index <= recipe.rating ? '/assets/icons/full_heart.png' : '/assets/icons/empty_heart.png'" 
+                                <img :src="index <= recipe.rating ? '/icons/full_heart.png' : '/icons/empty_heart.png'" 
                                     class="hearts_icon img-fluid ">
                             </div>
                         </div>
