@@ -5,7 +5,7 @@
                 <div class="col-md-10 card">
                     <div class="img-container">
                         <div class="image-overlay">
-                            <img :src="`/src/assets/${recipe.image}`" class="img-fluid top-border-radius" />
+                            <img :src="`/src/assets/images/${recipe.image}`" class="img-fluid top-border-radius" />
                         </div>
                     </div>
 

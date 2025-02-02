@@ -2,20 +2,21 @@
     <div class="container">
         <div class="display-content">
             <div class="row d-flex justify-content-center">
-                <div class="col-md-9 card">
+                <div v-for="pattern in patterns" :key="pattern.id" class="col-md-9 card">
                     <div class="row g-0">
                         <div class="col-md-2 img-container d-flex">
                             <div class="image-overlay">
-                                <img src="/src/assets/cable_beanie.jpg" class="img-fluid rounded-start" alt="cable beanie">
+                                <img :src="`./src/assets/images/${pattern.image}`" class="img-fluid rounded-start" alt="cable beanie">
                             </div>
                         </div>
                         <div class="col-md-10">
                             <div class="card-body">
-                                <h4 class="card-title">Cable Beanie</h4>
-                                <h6 class="card-text">This cable beanie knitting pattern features intricate, 
-                                    textured cable stitches that create a cozy and stylish design. The pattern guides you through knitting the hat in the round, 
-                                    using a combination of twisted stitches to form beautiful braided cables</h6>
-                                <p class="card-text"><small class="text-body-secondary">Level : Advanced beginner</small></p>
+
+                                <router-link :to="`/patterns/${pattern.id}`" class="card-title">
+                                    <h4 class="title-text">{{ pattern.title }}</h4>
+                                </router-link>
+                                <h6 class="card-text">{{ pattern.description }}</h6>
+                                <p class="card-text"><small class="text-body-secondary">Level : {{ pattern.level }}</small></p>
                             </div>
                         </div>
                     </div>
@@ -24,6 +25,18 @@
         </div>
     </div>
 </template>
+
+<script>
+import data from "../database/data_patterns.json";
+export default {
+    data() {
+        return {
+            patterns: data  
+        };
+    }
+}
+</script>
+
 
 <style scoped>
 
@@ -34,6 +47,8 @@
 
 .card-title{
     font-size: 24px;
+    text-decoration: none;
+
 }
 
 .card-text{

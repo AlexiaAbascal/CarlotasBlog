@@ -4,6 +4,4 @@ import PatternCard from '../components/PatternCard.vue';
 
 <template>
     <PatternCard/>
-    <PatternCard/>
-
 </template>

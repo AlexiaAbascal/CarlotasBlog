@@ -1,0 +1,18 @@
+[
+    {
+      "id": "Cable_beanie",
+      "title": "Cable beanie",
+      "image": "cable_beanie.jpg",
+      "level":"Advanced beginners",
+      "description": "This cable beanie knitting pattern features intricate, textured cable stitches that create a cozy and stylish design. The pattern guides you through knitting the hat in the round, using a combination of twisted stitches to form beautiful braided cables",
+      "materials": [
+        "3.5 size straight knitting needles",
+        "450 grams of worsted (medium) weight wool yarn"
+      ],
+      "instructions": [
+        "Step 1. Cast 112 stitches",
+        "Step 2. For ribbing, do k2 p2 and repeat until desired length",
+        "Step 3. For body, do k6 p6, k2 p6"
+      ]
+    }
+]
