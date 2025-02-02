@@ -6,7 +6,7 @@
                     <div class="row g-0">
                         <div class="col-md-2 img-container d-flex">
                             <div class="image-overlay">
-                                <img :src="`/assets/icons/images/${pattern.image}`" class="img-fluid rounded-start" alt="cable beanie">
+                                <img :src="'/assets/images/' + pattern.image" class="img-fluid rounded-start" alt="cable beanie">
                             </div>
                         </div>
                         <div class="col-md-10">
