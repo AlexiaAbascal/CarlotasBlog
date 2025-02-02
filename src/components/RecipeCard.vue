@@ -6,7 +6,7 @@
 
                     <div class="img-container">
                         <div class="image-overlay">
-                            <img :src="`/assets/images/${recipe.image}`" class="img-fluid  top-border-radius">
+                            <img :src="`/assets/icons/images/${recipe.image}`" class="img-fluid  top-border-radius">
                         </div>
                     </div>
 
