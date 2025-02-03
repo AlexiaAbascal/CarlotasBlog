@@ -6,7 +6,8 @@
                     <div class="row g-0">
                         <div class="col-md-2 img-container d-flex">
                             <div class="image-overlay">
-                                <img :src="getImgUrl" class="img-fluid rounded-start" alt="cable beanie"/>
+                                <img :src="`images/${pattern.image}`" class="img-fluid rounded-start" alt="cable beanie"/>
+                                <!-- <img :src="getImgUrl" class="img-fluid rounded-start" alt="cable beanie"/> -->
                                 <!-- <img :src="'/images/' + pattern.image" class="img-fluid rounded-start" alt="cable beanie"> -->
                             </div>
                         </div>
@@ -34,11 +35,6 @@ export default {
         return {
             patterns: data  
         };
-    },
-    computed: {
-        getImgUrl() { 
-            return (`/images/${this.patterns[0].image}`);
-        }
     }
 }
 </script>
