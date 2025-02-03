@@ -7,8 +7,6 @@
                         <div class="col-md-2 img-container d-flex">
                             <div class="image-overlay">
                                 <img :src="`images/${pattern.image}`" class="img-fluid rounded-start" alt="cable beanie"/>
-                                <!-- <img :src="getImgUrl" class="img-fluid rounded-start" alt="cable beanie"/> -->
-                                <!-- <img :src="'/images/' + pattern.image" class="img-fluid rounded-start" alt="cable beanie"> -->
                             </div>
                         </div>
                         <div class="col-md-10">
