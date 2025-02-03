@@ -1,6 +1,6 @@
 [
   {
-    "id": "Chocolate_bread",
+    "id": "chocolate_bread",
     "title": "Chocolate Bread",
     "image": "chocolate_bread.jpg",
     "prepTime": "45 min",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "id": "Lasagna",
+    "id": "lasagna",
     "title": "Lasagna",
     "image": "lasagna.jpg",
     "prepTime": "1 hour 30 min",
